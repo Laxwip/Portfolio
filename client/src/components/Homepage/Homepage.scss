@@ -1,0 +1,192 @@
+@import "../../index.scss";
+
+$breakpoint-xs: 575.98px;
+$breakpoint-sm: 576px;
+$breakpoint-md: 768px;
+$breakpoint-lg: 992px;
+$breakpoint-xl: 1200px;
+
+.Homepage{
+  width: 100%;
+  // height: 100%;
+  padding: 0 1rem;
+  
+  .main_view{
+    width:100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .section_description{
+      width: 100%;
+      height: 27vw;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+
+      .title{
+        font-size: clamp(2rem, 5vw, 5rem);
+        line-height: clamp(3rem, 8vw, 8rem);
+        margin: 0;
+        width: 85%;
+        color: var(--text-color);
+      }
+      .subtitle{
+        width: 85%;
+        font-size: 1rem;
+        color: var(--text-color);
+      }
+      .description{
+        font-family: "CascadiaCodePL";
+        color: var(--text-color);
+        width: 85%;
+      }
+      .resources{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        width: 85%;
+        height: 3rem;
+        margin-top: 3rem;
+        
+
+        .download_cv{
+          height: 100%;
+          font-size: 0.7rem;
+          background-color: var(--highlight);
+          color: var(--whiteColor);
+          border-radius: 0;
+          text-shadow:
+          -1px -1px 0 #000,  
+          1px -1px 0 #000,
+          -1px 1px 0 #000,
+          1px 1px 0 #000;
+          box-shadow: -2px 2px 15px var(--highlight);
+
+
+          &:hover{
+            // filter: drop-shadow(-2px 2px 15px var(--highlight));
+            border: none;
+            outline: none;
+            animation: shadowRotate .5s infinite alternate;
+          }
+        }
+        .social_buttons{
+          width: 5rem;
+          height: 100%;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+
+
+          .social_button{
+            padding: 0;
+            border: 0;
+            width: 2rem;
+            height: 2rem;
+            background-color: var(--background-color);
+            display: flex;
+            outline: 1px solid var(--highlight);
+            justify-content: center;
+            align-items: center;
+            box-shadow: -2px 2px 15px var(--highlight);
+
+            &:hover{
+              // filter: drop-shadow(-2px 2px 15px var(--highlight));
+              // border: none;
+              // outline: none;
+              animation: shadowRotate .5s infinite alternate;
+            }
+
+            .svg{
+              width: 80%;
+              height: 80%;
+            }
+          }
+        }
+        
+      }
+    }
+    .section_grid{
+      width: 40vw;
+      height: 27vw;
+      /* background-image: url("/img/prueba.jpg"); */
+      background-color: var(--background-color-reverse);
+
+      .grid-container {
+        width: 100%;
+        height: 100%;
+        display: grid;
+        grid-template-columns: repeat(10, 1fr);
+
+        .grid-item {
+          // height: calc(100% /1);
+          height: 100%;
+          background-color: var(--background-color);
+          opacity: 1; 
+          transition: 1.5s;
+                  
+          &:hover {
+            opacity: 0;
+            transition: 0s;
+          }
+        }
+      }
+    }
+  }
+
+  .skills_view{
+    width: 100%;
+    height: 50rem;
+  }
+
+  .projects_view{
+    width: 100%;
+    height: 50rem;
+  }
+
+  .contact_view{
+    width: 100%;
+    height: 50rem;
+  }
+}
+
+// Uso de las variables
+@media (min-width: $breakpoint-xl) {
+  /* Estilos para computadoras de escritorio grandes */
+}
+@media (min-width: $breakpoint-lg) and (max-width: $breakpoint-xl) {
+  /* Estilos para computadoras de escritorio pequeñas */
+}
+@media (min-width: $breakpoint-md) and (max-width: $breakpoint-lg) {
+  /* Estilos para tabletas */
+}
+@media (min-width: $breakpoint-sm) and (max-width: $breakpoint-md) {
+  /* Estilos para teléfonos medianos */
+}
+@media (max-width: $breakpoint-xs) {
+  /* Estilos para teléfonos pequeños */
+}
+
+@keyframes shadowRotate {
+  from {
+    box-shadow: -2px 2px 15px var(--highlight);
+  }
+  to {
+    box-shadow: -5px 5px 15px var(--highlight-reverse);
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+

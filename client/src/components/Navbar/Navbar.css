@@ -1,0 +1,28 @@
+.Navbar {
+  max-width: 1280px;
+  width: 80vw;
+  height: 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.6rem;
+  padding: 0 1rem;
+  background: linear-gradient(var(--background-color), transparent);
+  position: fixed;
+  top: 0;
+}
+.Navbar .logo {
+  width: 40px;
+}
+.Navbar .link-list {
+  width: 70%;
+  display: flex;
+  justify-content: flex-end;
+}
+.Navbar .link-list a {
+  margin: 0 1rem;
+  color: var(--text-color);
+}
+.Navbar .toggle-theme {
+  width: 9rem;
+}/*# sourceMappingURL=Navbar.css.map */
