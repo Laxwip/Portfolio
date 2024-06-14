@@ -153,6 +153,10 @@ $breakpoint-xl: 1200px;
   }
 }
 
+.white path{
+  color: white;
+}
+
 // Uso de las variables
 @media (min-width: $breakpoint-xl) {
   /* Estilos para computadoras de escritorio grandes */

@@ -2,11 +2,14 @@ import React, { useEffect, useState } from 'react'
 import { useSelector, useDispatch } from 'react-redux';
 import './Navbar.scss'
 import { setTheme } from '../../redux/features/colors/colorsSlice';
+import LaxwipLogo from '../../../public/laxwip-logo';
 
         
 export default function Navbar() {
   const dispatch = useDispatch();
   const theme = useSelector((state) => state.colors.theme);
+
+  const color = theme === "light" ? "#cd1b53" : "#14D5FF"
 
   const [activeLink, setActiveLink] = useState('#inicio');
 
@@ -45,7 +48,7 @@ export default function Navbar() {
 
 return (
   <header className='Navbar'>
-    <img className="logo" src="iconos/laxwipLogo.png" alt="Icono de marca LAXWIP" onClick={(e) => handleClick(e, 'inicio')}/>
+    <LaxwipLogo color={color} className={"logo"} alt={"Icono de marca LAXWIP"} onClick={(e) => handleClick(e, 'inicio')}/>
     <nav className='link-list'>
       <a href="#inicio" className={activeLink === '#inicio' ? 'active' : ''} onClick={(e) => handleClick(e, 'inicio')}>INICIO</a>
       <a href="#skills" className={activeLink === '#skills' ? 'active' : ''} onClick={(e) => handleClick(e, 'skills')}>SKILLS</a>
