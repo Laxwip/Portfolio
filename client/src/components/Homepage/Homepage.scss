@@ -137,19 +137,105 @@ $breakpoint-xl: 1200px;
     }
   }
 
-  .skills_view{
-    width: 100%;
-    height: 50rem;
-  }
-
   .projects_view{
     width: 100%;
     height: 50rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10rem;
+
+    .title{
+      font-size: 3rem;
+      margin-bottom: 8rem;
+      color: var(--text-color);
+    }
+
+    .projects_skills {
+      width: 100%;
+      height: 8rem;
+      outline: 2px solid var(--highlight);
+      box-shadow: -2px 2px 15px var(--highlight);
+      position: relative;
+      display: flex;
+      justify-content: center;
+    
+      .skills_container {
+        width: calc(100% - 10rem); /* 50% del ancho menos 4rem */
+        height: 100%; /* O el alto deseado */
+        // background-color: lightgray; /* Ejemplo de color */
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        overflow-x: auto;
+        // gap: 1rem;
+
+        .skill{
+          margin: 0.5rem;
+          flex: 0 0 auto;
+          width: 4rem;
+          height: 4rem;
+          // background-color: white;
+          outline: 1px solid var(--text-color);
+          // margin-right: 1rem;
+        }
+      }
+    
+      .button_left {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        transform: translate(10%, -50%);
+        width: 3rem; /* Ancho deseado */
+        height: 80%;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+      }
+    
+      .button_right {
+        position: absolute;
+        top: 50%;
+        right: 0;
+        transform: translate(-10%, -50%);
+        width: 3rem; /* Ancho deseado */
+        height: 80%;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+    
+    .projects_container{
+      width: 100%;
+      height: 45rem;
+      display: flex;
+      // justify-content: space-around;
+      overflow-x: auto;
+      margin-top: 2rem;
+      // outline: 2px solid var(--highlight);
+      // box-shadow: -2px 2px 15px var(--highlight);
+      font-family: "CascadiaCodePL";
+      gap: 1rem;
+    }
   }
 
   .contact_view{
     width: 100%;
     height: 50rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10rem;
+
+    .title{
+      font-size: 3rem;
+      margin-bottom: 8rem;
+      color: var(--text-color);
+    }
   }
 }
 

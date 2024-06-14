@@ -35,11 +35,14 @@
   --color_light: #d7ddea;
   --color_highlight: #14D5FF;
   --color_highlight2: #cd1b53;
+  --color_black: #08080a;
+  --color_white: #fff;
   // Definición de breakpoints
 }
 
 [data-theme="light"] {
   --background-color: var(--color_light);
+  --background-color-ex: var(--color_white);
   --text-color: var(--color_dark);
   --background-color-reverse: var(--color_dark);
   --highlight: var(--color_highlight2);
@@ -48,6 +51,7 @@
 
 [data-theme="dark"] {
   --background-color: var(--color_dark);
+  --background-color-ex: var(--color_black);
   --text-color: var(--color_light);
   --background-color-reverse: var(--color_light);
   --highlight: var(--color_highlight);

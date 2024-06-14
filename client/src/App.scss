@@ -1,6 +1,29 @@
 #root {
-  max-width: 1280px;
-  width: 80vw;
+  width: 100%;
   height: 100%;
   margin: 0 auto;
+}
+
+.app-container {
+  position: relative;
+  width: 100%;
+  // height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+.hover-shadow {
+  position: absolute;
+  // border-radius: 50%;
+  
+  pointer-events: none; /* Asegura que el div no interfiera con otros eventos del mouse */
+  transform: translate(-50%, -50%); /* Centra la sombra en el cursor */
+  transition: box-shadow 0.2s ease;
+}
+
+
+.root{
+  max-width: 1280px;
+  height: 100%;
 }
