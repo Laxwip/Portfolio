@@ -39,10 +39,12 @@ export default function Navbar() {
   };
 
   const handleClick = (e, linkId) => {
-    e.preventDefault(); // Prevén el comportamiento predeterminado del enlace
-    const targetElement = document.getElementById(linkId); // Obtiene el elemento objetivo por ID
+    e.preventDefault(); // Prevent default link behavior
+    const targetElement = document.getElementById(linkId); // Get the target element by ID
     if (targetElement) {
-      targetElement.scrollIntoView({ behavior: 'smooth' }); // Desplaza suavemente hasta el elemento objetivo
+      setTimeout(() => {
+        targetElement.scrollIntoView({ behavior: 'smooth' }); // Smoothly scroll to the target element
+      }, 100); // Add a small delay before scrolling
     }
   };
 
