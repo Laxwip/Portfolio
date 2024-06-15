@@ -1,0 +1,36 @@
+{
+  "projects": [
+    {
+      "name": "Deliveloz",
+      "description": "Este proyecto es una aplicación de comercio electrónico enfocada en la entrega rápida de alimentos, diseñada para satisfacer las necesidades de consumo rápido. Destaca por su interfaz de usuario atractiva y fácil de usar, con banners dinámicos que promueven las comidas principales y una barra de navegación intuitiva. Los usuarios pueden explorar una amplia gama de productos, agregarlos al carrito de compras, modificar su perfil y realizar compras de manera segura. La aplicación envía correos electrónicos de confirmación y ofrece un panel de control para administradores, facilitando la gestión de productos y usuarios.",
+      "tags": ["HTML", "CSS", "JavaScript"],
+      "url-website": "https://github.com/john-doe/school",
+      "url-github": "https://github.com/john-doe/school",
+      "url-image": "https://via.placeholder.com/150"      
+    }
+  ],
+
+  "experience": [],
+
+  "education": [],
+
+  "skills": [
+    {
+      "name": "HTML",
+      "level": 90,
+      "icon": "https://via.placeholder.com/150"
+    }
+  ],
+
+  "interests": [],
+
+  "awards": [],
+
+  "certifications": [],
+
+  "languages": [],
+
+  "volunteer": [],
+
+  "references": []
+}
