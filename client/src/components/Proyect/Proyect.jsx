@@ -1,13 +1,13 @@
 import React from 'react'
 import './Proyect.scss'
         
-export default function Proyect({ nombre, skills, descripcion, img }) {
+export default function Proyect({ name, description, skills, img }) {
 return (
   <div className="Proyect">
       <img src={img} alt="" />
-      <h3>{nombre}</h3>
-      <p><strong>Skills:</strong> {skills.join(', ')}</p>
-      <p>{descripcion}</p>
+      <h3>{name}</h3>
+      {skills.map((skill, index) => <span key={index}>{skill}</span>)}
+      <p>{description}</p>
   </div>
 )
 }
