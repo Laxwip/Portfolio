@@ -2,11 +2,75 @@
   "projects": [
     {
       "name": "Deliveloz",
-      "description": "Este proyecto es una aplicación de comercio electrónico enfocada en la entrega rápida de alimentos, diseñada para satisfacer las necesidades de consumo rápido. Destaca por su interfaz de usuario atractiva y fácil de usar, con banners dinámicos que promueven las comidas principales y una barra de navegación intuitiva. Los usuarios pueden explorar una amplia gama de productos, agregarlos al carrito de compras, modificar su perfil y realizar compras de manera segura. La aplicación envía correos electrónicos de confirmación y ofrece un panel de control para administradores, facilitando la gestión de productos y usuarios.",
+      "description": "Aplicación de comercio electrónico para entrega rápida de alimentos, con interfaz atractiva y fácil de usar. Permite explorar productos, agregar al carrito, modificar el perfil y realizar compras seguras, con confirmaciones por correo y panel de control para administradores.",
+      "date": "2023/01/01 - Actualidad",
       "tags": ["HTML", "CSS", "JavaScript"],
       "urlWebsite": "https://github.com/john-doe/school",
       "urlGithub": "https://github.com/john-doe/school",
       "urlImage": "https://res.cloudinary.com/dpk2wmbsb/image/upload/v1718551969/Portfolio/63f4e9fb-a5c5-486f-93f0-d76a2539fd99.png"      
+    },
+    {
+      "name": "LaxwipDogs",
+      "description": "Aplicación web para la gestión de mascotas, con interfaz atractiva y fácil de usar. Permite explorar productos, agregar al carrito, modificar el perfil y realizar compras seguras, con confirmaciones por correo",
+      "date": "2023/01/01 - Actualidad",
+      "tags": ["HTML", "CSS", "JavaScript"],
+      "urlWebsite": "https://github.com/john-doe/school",
+      "urlGithub": "https://github.com/john-doe/school",
+      "urlImage": "https://res.cloudinary.com/dpk2wmbsb/image/upload/v1718551969/Portfolio/63f4e9fb-a5c5-486f-93f0-d76a2539fd99.png"
+    },
+    {
+      "name": "Postulaxwip",
+      "description": "Aplicación web para la gestión de mascotas, con interfaz atractiva y fácil de usar. Permite explorar productos, agregar al carrito, modificar el perfil y realizar compras seguras, con confirmaciones por correo",
+      "date": "2023/01/01 - Actualidad",
+      "tags": ["HTML", "CSS", "JavaScript"],
+      "urlWebsite": "https://github.com/john-doe/school",
+      "urlGithub": "https://github.com/john-doe/school",
+      "urlImage": "https://res.cloudinary.com/dpk2wmbsb/image/upload/v1718551969/Portfolio/63f4e9fb-a5c5-486f-93f0-d76a2539fd99.png"
+    },
+    {
+      "name": "Postulaxwip",
+      "description": "Aplicación web para la gestión de mascotas, con interfaz atractiva y fácil de usar. Permite explorar productos, agregar al carrito, modificar el perfil y realizar compras seguras, con confirmaciones por correo",
+      "date": "2023/01/01 - Actualidad",
+      "tags": ["HTML", "CSS", "JavaScript"],
+      "urlWebsite": "https://github.com/john-doe/school",
+      "urlGithub": "https://github.com/john-doe/school",
+      "urlImage": "https://res.cloudinary.com/dpk2wmbsb/image/upload/v1718551969/Portfolio/63f4e9fb-a5c5-486f-93f0-d76a2539fd99.png"
+    },
+    {
+      "name": "Postulaxwip",
+      "description": "Aplicación web para la gestión de mascotas, con interfaz atractiva y fácil de usar. Permite explorar productos, agregar al carrito, modificar el perfil y realizar compras seguras, con confirmaciones por correo",
+      "date": "2023/01/01 - Actualidad",
+      "tags": ["HTML", "CSS", "JavaScript"],
+      "urlWebsite": "https://github.com/john-doe/school",
+      "urlGithub": "https://github.com/john-doe/school",
+      "urlImage": "https://res.cloudinary.com/dpk2wmbsb/image/upload/v1718551969/Portfolio/63f4e9fb-a5c5-486f-93f0-d76a2539fd99.png"
+    },
+    {
+      "name": "Postulaxwip",
+      "description": "Aplicación web para la gestión de mascotas, con interfaz atractiva y fácil de usar. Permite explorar productos, agregar al carrito, modificar el perfil y realizar compras seguras, con confirmaciones por correo",
+      "date": "2023/01/01 - Actualidad",
+      "tags": ["HTML", "CSS", "JavaScript"],
+      "urlWebsite": "https://github.com/john-doe/school",
+      "urlGithub": "https://github.com/john-doe/school",
+      "urlImage": "https://res.cloudinary.com/dpk2wmbsb/image/upload/v1718551969/Portfolio/63f4e9fb-a5c5-486f-93f0-d76a2539fd99.png"
+    },
+    {
+      "name": "Postulaxwip",
+      "description": "Aplicación web para la gestión de mascotas, con interfaz atractiva y fácil de usar. Permite explorar productos, agregar al carrito, modificar el perfil y realizar compras seguras, con confirmaciones por correo",
+      "date": "2023/01/01 - Actualidad",
+      "tags": ["HTML", "CSS", "JavaScript"],
+      "urlWebsite": "https://github.com/john-doe/school",
+      "urlGithub": "https://github.com/john-doe/school",
+      "urlImage": "https://res.cloudinary.com/dpk2wmbsb/image/upload/v1718551969/Portfolio/63f4e9fb-a5c5-486f-93f0-d76a2539fd99.png"
+    },
+    {
+      "name": "Postulaxwip",
+      "description": "Aplicación web para la gestión de mascotas, con interfaz atractiva y fácil de usar. Permite explorar productos, agregar al carrito, modificar el perfil y realizar compras seguras, con confirmaciones por correo",
+      "date": "2023/01/01 - Actualidad",
+      "tags": ["HTML", "CSS", "JavaScript"],
+      "urlWebsite": "https://github.com/john-doe/school",
+      "urlGithub": "https://github.com/john-doe/school",
+      "urlImage": "https://res.cloudinary.com/dpk2wmbsb/image/upload/v1718551969/Portfolio/63f4e9fb-a5c5-486f-93f0-d76a2539fd99.png"
     }
   ],
 

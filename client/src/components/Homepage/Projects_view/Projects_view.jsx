@@ -5,6 +5,7 @@ import ButtonLeft from '../../../../public/iconos/buttonLeft';
 import ButtonRight from '../../../../public/iconos/buttonRight';
 import Proyect from '../../Proyect/Proyect';
 import { fetchProjects } from '../../../redux/features/data/dataSlice';
+import IconReact from '../../../../public/iconos/skills/iconReact';
         
 export default function Projects_view({color}) {
   const dispatch = useDispatch();
@@ -18,7 +19,9 @@ export default function Projects_view({color}) {
             <ButtonLeft className='svg' color={color}></ButtonLeft>
           </div>
           <div className='skills_container'>
-            <div className='skill'></div>
+            <div className='skill'>
+              <IconReact className='svg' color={color}></IconReact>
+            </div>
             <div className='skill'></div>
             <div className='skill'></div>
             <div className='skill'></div>

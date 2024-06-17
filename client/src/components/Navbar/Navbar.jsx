@@ -3,11 +3,13 @@ import { useSelector, useDispatch } from 'react-redux';
 import './Navbar.scss'
 import { setTheme } from '../../redux/features/colors/colorsSlice';
 import LaxwipLogo from '../../../public/laxwip-logo';
+import { toggleMenubar } from '../../redux/features/condition/conditionSlice';
 
         
 export default function Navbar() {
   const dispatch = useDispatch();
   const theme = useSelector((state) => state.colors.theme);
+  const isOpenMenubar = useSelector((state) => state.condition.isOpenMenubar);
 
   const color = theme === "light" ? "#cd1b53" : "#14D5FF"
 
@@ -48,16 +50,23 @@ export default function Navbar() {
     }
   };
 
+  const toggleBar = () => {
+    dispatch(toggleMenubar(!isOpenMenubar));
+  }
+
 return (
   <header className='Navbar'>
     <LaxwipLogo color={color} className={"logo"} alt={"Icono de marca LAXWIP"} onClick={(e) => handleClick(e, 'inicio')}/>
-    <nav className='link-list'>
+    <nav className={`link-list ${isOpenMenubar ? "visible": ""}`}>
       <a href="#inicio" className={activeLink === '#inicio' ? 'active' : ''} onClick={(e) => handleClick(e, 'inicio')}>INICIO</a>
       <a href="#proyectos" className={activeLink === '#proyectos' ? 'active' : ''} onClick={(e) => handleClick(e, 'proyectos')}>PROYECTOS</a>
       <a href="#contacto" className={activeLink === '#contacto' ? 'active' : ''} onClick={(e) => handleClick(e, 'contacto')}>CONTACTO</a>
+      <div className='toggle-theme' onClick={toggleTheme}>
+        <div className={`circle ${theme === "dark"? "left" : "right"}`}></div>
+      </div>
     </nav>
-    <div className='toggle-theme' onClick={toggleTheme}>
-      <div className={`circle ${theme === "dark"? "left" : "right"}`}></div>
+    <div className='toggle-bar' onClick={toggleBar}>
+      a
     </div>
   </header>
 )

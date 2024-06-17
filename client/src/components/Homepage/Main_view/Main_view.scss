@@ -1,3 +1,10 @@
+$breakpoint-xs: 575.98px;
+$breakpoint-sm: 576px;
+$breakpoint-md: 768px;
+$breakpoint-lg: 992px;
+$breakpoint-xl: 1200px;
+$breakpoint-xxl: 1400px;
+
 .main_view{
   width:100%;
   height: 100vh;
@@ -7,7 +14,7 @@
 
   .section_description{
     width: 100%;
-    height: 27vw;
+    height: 80%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -22,26 +29,27 @@
     }
     .subtitle{
       width: 85%;
-      font-size: 1rem;
+      font-size: clamp(0.7rem, 1.5vw, 1rem);
       color: var(--text-color);
     }
     .description{
       font-family: "CascadiaCodePL", Arial, Helvetica, sans-serif;
+      font-size: clamp(0.8rem, 1vw, 1rem);
       color: var(--text-color);
       width: 85%;
     }
     .resources{
       display: flex;
       justify-content: space-between;
-      align-items: flex-end;
+      align-items: center;
       width: 85%;
       height: 3rem;
-      margin-top: 3rem;
+      margin-top: 1rem;
       
 
       .download_cv{
-        height: 100%;
-        font-size: 0.7rem;
+        height: 70%;
+        font-size: clamp(0.5rem, 0.7vw, 0.7rem);
         background-color: var(--highlight);
         color: var(--whiteColor);
         border-radius: 0;
@@ -97,16 +105,19 @@
     }
   }
   .section_grid{
-    width: 40vw;
-    height: 27vw;
+    width: 500px;
+    height: 500px;
     /* background-image: url("/img/prueba.jpg"); */
     background-color: var(--background-color-reverse);
+    // overflow: hidden;
 
     .grid-container {
       width: 100%;
       height: 100%;
       display: grid;
-      grid-template-columns: repeat(10, 1fr);
+      grid-template-columns: repeat(auto-fill, minmax(35px, 1fr));
+      // grid-gap: 1px;
+      
 
       .grid-item {
         // height: calc(100% /1);
@@ -114,6 +125,7 @@
         background-color: var(--background-color);
         opacity: 1; 
         transition: 1.5s;
+        // outline: 1px solid black;
                 
         &:hover {
           opacity: 0;
@@ -131,5 +143,23 @@
   }
   to {
     box-shadow: -5px 5px 15px var(--highlight-reverse);
+  }
+}
+
+
+@media (max-width: 1000px) {
+  .section_grid{
+    display: none;
+  }
+
+  .description{
+    width: 100% !important;
+    max-width: 600px;
+    padding: 0;
+    
+  }
+
+  .resources{
+    width: 100% !important;
   }
 }

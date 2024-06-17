@@ -1,9 +1,9 @@
 {
-  "name": "laxwip_proyect",
+  "name": "portfolio",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
-  "description": "",
+  "description": "En desarrollo, cuyo objetivo es brindar a mis clientes o reclutadores potenciales una interfaz gráfica de mis habilidades como desarrollador front",
   "author": "Laxwip",
   "license": "MIT",
   "homepage": "./",

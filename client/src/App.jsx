@@ -31,8 +31,7 @@ function App() {
 
   return (
     <>
-      <div className="app-container">
-        <div
+      <div
           className="hover-shadow"
           style={{
             boxShadow: `0 0 30px 15px ${color}`,
@@ -40,11 +39,10 @@ function App() {
             left: `${position.x}px`,
           }}
         />
-        <div className='root'>
-          <Navbar></Navbar>
-          <Homepage></Homepage>
-          <Footer></Footer>
-        </div>
+      <div className="app-container">
+        <Navbar></Navbar>
+        <Homepage></Homepage>
+        <Footer></Footer>
       </div>
     </>
   )

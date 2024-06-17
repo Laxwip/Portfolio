@@ -30,7 +30,7 @@ export default function Main_view({color}) {
       </div>
       <div className='section_grid'>
         <div className="grid-container">
-          {[...Array(100)].map((_, index) => (
+          {[...Array(200)].map((_, index) => (
               <div key={index} className="grid-item"></div>
           ))}
         </div>
