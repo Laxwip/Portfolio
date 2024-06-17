@@ -1,6 +1,5 @@
 .projects_view{
   width: 100%;
-  height: 50rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -99,13 +98,34 @@
     }
   }
   
+
   .projects_container{
     width: 100%;
-    height: 45rem;
     display: flex;
-    flex-direction: column;
-    margin-top: 2rem;
-    font-family: "CascadiaCodePL";
-    gap: 1rem;
+    
+    .timeline{
+      width: 10%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 2rem;
+
+      .line{
+        width: 1px;
+        background-color: var(--highlight);
+        height: 100%;
+      }
+    }
+    
+    .projects{
+      width: 90%;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      margin-top: 2rem;
+      font-family: "CascadiaCodePL";
+      gap: 1rem;
+    }
   }
+
 }

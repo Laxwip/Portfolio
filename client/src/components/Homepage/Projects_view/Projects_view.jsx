@@ -22,35 +22,26 @@ export default function Projects_view({color}) {
             <div className='skill'>
               <IconReact className='svg' color={color}></IconReact>
             </div>
-            <div className='skill'></div>
-            <div className='skill'></div>
-            <div className='skill'></div>
-            <div className='skill'></div>
-            <div className='skill'></div>
-            <div className='skill'></div>
-            <div className='skill'></div>
-            <div className='skill'></div>
-            <div className='skill'></div>
-            <div className='skill'></div>
-            <div className='skill'></div>
-            <div className='skill'></div>
-            <div className='skill'></div>
-            <div className='skill'></div>
           </div>
           <div className='button_right'>
             <ButtonRight className='svg' color={color}></ButtonRight>
           </div>
       </div>
       <div className='projects_container'>
-        {dataProjects.map((proyect, index) => (
-          <Proyect 
-            name={proyect.name} 
-            description={proyect.description} 
-            skills={proyect.tags} 
-            img={proyect.urlImage}
-            key={index} 
-          />
-        ))}
+        <div className='timeline'>
+          <div className='line'></div>
+        </div>
+        <div className='projects'>
+          {dataProjects.map((proyect, index) => (
+            <Proyect 
+              name={proyect.name} 
+              description={proyect.description} 
+              skills={proyect.tags} 
+              images={proyect.images}
+              key={index} 
+            />
+          ))}
+        </div>
       </div>
     </section>
   )

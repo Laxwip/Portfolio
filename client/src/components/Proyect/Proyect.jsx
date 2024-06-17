@@ -1,11 +1,11 @@
 import React from 'react'
 import './Proyect.scss'
         
-export default function Proyect({ name, description, skills, img }) {
+export default function Proyect({ name, description, skills, images }) {
 return (
   <div className="Proyect">
       <div className='image'>
-        <img src={img} alt="" />
+        {images?.map(img => <img src={img} alt="" />)}
       </div>
       <div className='info'>
         <h3 className='title'>{name}</h3>
