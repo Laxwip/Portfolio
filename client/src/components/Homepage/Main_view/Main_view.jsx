@@ -4,16 +4,17 @@ import Github from '../../../../public/iconos/github';
 import Linkedin from '../../../../public/iconos/linkedin';
 import { useSelector, useDispatch } from 'react-redux';
 import pdfUrl from '../../../../public/pdf/Axl_Pacheco.pdf';
+import IconMarco from '../../../../public/iconos/iconMarco';
 
         
-export default function Main_view({color}) {
+export default function Main_view({color, colorBackground}) {
   const handleDownloadCV = () => {
     window.open(pdfUrl, '_blank');
   };
   return (
     <section className='main_view' id='inicio'>
       <div className='section_description'>
-        <h1 className='title'>HOLA,SOY <br/><span className='resalt'>LAXWIP</span></h1>
+        <h1 className='title'>HOLA,SOY <span className='resalt'>LAXWIP</span></h1>
         <h2 className="subtitle">DESARROLLADOR FRONTEND</h2>
         <p className='description'>Encantado de trabajar contigo. Soy un desarrollador <span className='resalt'>frontend</span> apasionado con habilidades en backend, comprometido en llevar nuestras ideas al siguiente nivel. <span className='resalt'>¡</span>Hagamos cosas increíbles juntos<span className='resalt'>!</span></p>
         <div className='resources'>
@@ -28,12 +29,16 @@ export default function Main_view({color}) {
           </div>
         </div>
       </div>
-      <div className='section_grid'>
+      {/* <div className='section_grid'>
         <div className="grid-container">
           {[...Array(200)].map((_, index) => (
               <div key={index} className="grid-item"></div>
           ))}
         </div>
+      </div> */}
+      <div className='section_logo'>
+        <IconMarco color={color} colorBackground={colorBackground} className="marco" className2="sombra"></IconMarco>
+        <div className='shadow'></div>
       </div>
     </section>
   )

@@ -4,6 +4,7 @@ import './Navbar.scss'
 import { setTheme } from '../../redux/features/colors/colorsSlice';
 import LaxwipLogo from '../../../public/laxwip-logo';
 import { toggleMenubar } from '../../redux/features/condition/conditionSlice';
+import IconMenu from '../../../public/iconos/iconMenu';
 
         
 export default function Navbar() {
@@ -66,7 +67,7 @@ return (
       </div>
     </nav>
     <div className='toggle-bar' onClick={toggleBar}>
-      a
+      <IconMenu color={color} className="svg"></IconMenu>
     </div>
   </header>
 )

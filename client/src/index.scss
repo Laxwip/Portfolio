@@ -65,7 +65,7 @@
 }
 
 *{
-  border: 1px solid white;
+  // border: 1px solid white;
   box-sizing: border-box;
 }
 
@@ -139,6 +139,11 @@ button:hover {
   color: var(--highlight);
   filter: drop-shadow(1px -1px 5px var(--highlight));
   z-index: 0;
+}
+
+.marginLeft{
+  margin: 0;
+  margin-left: -1.2rem;
 }
 
 @keyframes gradient-animation {
