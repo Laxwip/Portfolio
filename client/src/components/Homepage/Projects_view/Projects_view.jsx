@@ -28,9 +28,9 @@ export default function Projects_view({color}) {
     <section className='projects_view' id='proyectos'>
       <h1 className='title'>PROYECTOS</h1>
       <div className='projects_skills'>
-          <div className='button_left'>
+          {/* <div className='button_left'>
             <ButtonLeft className='svg' color={color}></ButtonLeft>
-          </div>
+          </div> */}
           <div className='skills_container'>
               <div className='skill'>
                 <IconJs className="skillIcon" color={color}></IconJs>
@@ -89,9 +89,9 @@ export default function Projects_view({color}) {
                 <div className='tooltip'>Electron</div> 
               </div>
           </div>
-          <div className='button_right'>
+          {/* <div className='button_right'>
             <ButtonRight className='svg' color={color}></ButtonRight>
-          </div>
+          </div> */}
       </div>
       <div className='projects_container'>
         {/* <div className='timeline'>

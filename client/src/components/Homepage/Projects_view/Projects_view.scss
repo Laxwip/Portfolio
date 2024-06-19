@@ -9,37 +9,35 @@ $breakpoint-xl: 1200px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 10rem;
+  // margin-bottom: 10rem;
 
   .title{
     font-size: clamp(1.5rem, 3vw, 3rem);
-    margin-bottom: 8rem;
+    // margin-bottom: 8rem;
     color: var(--text-color);
   }
 
   .projects_skills {
     width: 100%;
-    height: 10vw;
-    position: relative;
+    height: auto;
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 0.5rem;
+    padding: 2rem 1rem;
+
   
     .skills_container {
-      flex: 10; /* 50% del ancho menos 4rem */
-      height: 90%; /* O el alto deseado */
+      width: 100%;
+      height: 100%; /* O el alto deseado */
       display: flex;
-      justify-content: flex-start;
+      justify-content: center;
       align-items: center;
-      overflow-x: auto;
       gap: 0.5rem;
-      padding: 0 1rem;
+      flex-wrap: wrap;
 
       .skill{
-        // margin: 0.5rem;
-        flex: 0 0 auto;
-        width: 4rem;
-        height: auto;
+        flex: 0 0 4rem;
         padding: 0.5rem 0;
         // background-color: white;
         border: 1px solid var(--text-color);
@@ -66,6 +64,7 @@ $breakpoint-xl: 1200px;
           top: -50%;
           opacity: 0;
           transition: all 0.3s ease-in-out;
+          outline: 1px solid var(--background-color);
         }
 
         .skillIcon{
@@ -146,7 +145,7 @@ $breakpoint-xl: 1200px;
       flex-direction: column;
       margin-top: 2rem;
       font-family: "CascadiaCodePL";
-      gap: 1rem;
+      gap: 5rem;
     }
   }
 
@@ -175,7 +174,7 @@ $breakpoint-xl: 1200px;
     .projects_skills{
       .skills_container{
         .skill{
-          padding: 0.5rem, 0;
+          flex: 1 0 3rem;
         }
       }
     }

@@ -1,25 +1,9 @@
 .Proyect{
   width: 100%;
   height: auto;
-  border-radius: 0;
-  // border: 1px solid var(--background-color-reverse);
-  font-size: 0.8rem;
   color: var(--text-color);
   display: flex;
   gap: 1rem;
-  padding: 1rem;
-
-  .image{
-    flex: 1;
-    height: auto;
-    width: 100%;
-
-    img{
-      width: 100%;
-      height: 100%;
-      object-fit: contain;
-    }
-  }
 
   .info{
     flex: 2;
@@ -42,7 +26,7 @@
 
     .description{
       width: 80%;
-      font-size: 0.9rem;
+      font-size: clamp(0.8rem, 1vw, 1rem);
       margin: 0;
     }
 
@@ -80,6 +64,18 @@
         height: 2rem;
         background-color: var(--highlight);
       }
+    }
+  }
+
+  .image{
+    flex: 1;
+    height: auto;
+    width: 100%;
+
+    img{
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
     }
   }
 }
