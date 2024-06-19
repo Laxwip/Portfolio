@@ -17,6 +17,20 @@
   font-family: 'Ps2';
   src: url('../public/fonts/PressStart2P-Regular.woff') format('woff');
 }
+@font-face{
+  font-family: 'CascadiaCodeMono';
+  src: url('../public/fonts/CascadiaMono.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'CCLight';
+  src: url('../public/fonts/CascadiaCode-Light.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'CCPLLight';
+  src: url('../public/fonts/CascadiaCodePL-Light.woff2') format('woff2');
+}
+
+
 
 :root {
   font-family: 'Ps2', Arial, Helvetica, sans-serif;

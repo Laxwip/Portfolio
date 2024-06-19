@@ -1,6 +1,7 @@
 {
   "projects": [
     {
+      "category": "Frontend",
       "name": "DELIVELOZ",
       "description": "Aplicación de comercio electrónico para entrega rápida de alimentos, con interfaz atractiva y fácil de usar. Permite explorar productos, agregar al carrito, modificar el perfil y realizar compras seguras, con confirmaciones por correo y panel de control para administradores.",
       "date": "2023/01/01 - Actualidad",
@@ -10,6 +11,7 @@
       "urlImage": "https://res.cloudinary.com/dpk2wmbsb/image/upload/v1718551969/Portfolio/63f4e9fb-a5c5-486f-93f0-d76a2539fd99.png"      
     },
     {
+      "category": "Frontend",
       "name": "LAXWIP_DOG",
       "description": "Aplicación web para la gestión de mascotas, con interfaz atractiva y fácil de usar. Permite explorar productos, agregar al carrito, modificar el perfil y realizar compras seguras, con confirmaciones por correo",
       "date": "2023/01/01 - Actualidad",
@@ -19,6 +21,7 @@
       "urlImage": "https://res.cloudinary.com/dpk2wmbsb/image/upload/v1718551969/Portfolio/63f4e9fb-a5c5-486f-93f0-d76a2539fd99.png"
     },
     {
+      "category": "Frontend",
       "name": "POSTULAXWIP",
       "description": "Aplicación web para la gestión de mascotas, con interfaz atractiva y fácil de usar. Permite explorar productos, agregar al carrito, modificar el perfil y realizar compras seguras, con confirmaciones por correo",
       "date": "2023/01/01 - Actualidad",
@@ -28,6 +31,7 @@
       "urlImage": "https://res.cloudinary.com/dpk2wmbsb/image/upload/v1718551969/Portfolio/63f4e9fb-a5c5-486f-93f0-d76a2539fd99.png"
     },
     {
+      "category": "Frontend",
       "name": "POSTULAXWIP",
       "description": "Aplicación web para la gestión de mascotas, con interfaz atractiva y fácil de usar. Permite explorar productos, agregar al carrito, modificar el perfil y realizar compras seguras, con confirmaciones por correo",
       "date": "2023/01/01 - Actualidad",
@@ -37,6 +41,7 @@
       "urlImage": "https://res.cloudinary.com/dpk2wmbsb/image/upload/v1718551969/Portfolio/63f4e9fb-a5c5-486f-93f0-d76a2539fd99.png"
     },
     {
+      "category": "Frontend",
       "name": "POSTULAXWIP",
       "description": "Aplicación web para la gestión de mascotas, con interfaz atractiva y fácil de usar. Permite explorar productos, agregar al carrito, modificar el perfil y realizar compras seguras, con confirmaciones por correo",
       "date": "2023/01/01 - Actualidad",
@@ -46,6 +51,7 @@
       "urlImage": "https://res.cloudinary.com/dpk2wmbsb/image/upload/v1718551969/Portfolio/63f4e9fb-a5c5-486f-93f0-d76a2539fd99.png"
     },
     {
+      "category": "Frontend",
       "name": "POSTULAXWIP",
       "description": "Aplicación web para la gestión de mascotas, con interfaz atractiva y fácil de usar. Permite explorar productos, agregar al carrito, modificar el perfil y realizar compras seguras, con confirmaciones por correo",
       "date": "2023/01/01 - Actualidad",
@@ -55,6 +61,7 @@
       "urlImage": "https://res.cloudinary.com/dpk2wmbsb/image/upload/v1718551969/Portfolio/63f4e9fb-a5c5-486f-93f0-d76a2539fd99.png"
     },
     {
+      "category": "Frontend",
       "name": "POSTULAXWIP",
       "description": "Aplicación web para la gestión de mascotas, con interfaz atractiva y fácil de usar. Permite explorar productos, agregar al carrito, modificar el perfil y realizar compras seguras, con confirmaciones por correo",
       "date": "2023/01/01 - Actualidad",
@@ -64,6 +71,7 @@
       "urlImage": "https://res.cloudinary.com/dpk2wmbsb/image/upload/v1718551969/Portfolio/63f4e9fb-a5c5-486f-93f0-d76a2539fd99.png"
     },
     {
+      "category": "Frontend",
       "name": "POSTULAXWIP",
       "description": "Aplicación web para la gestión de mascotas, con interfaz atractiva y fácil de usar. Permite explorar productos, agregar al carrito, modificar el perfil y realizar compras seguras, con confirmaciones por correo",
       "date": "2023/01/01 - Actualidad",

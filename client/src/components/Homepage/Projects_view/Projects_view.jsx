@@ -104,7 +104,11 @@ export default function Projects_view({color}) {
               description={proyect.description} 
               skills={proyect.tags} 
               img={proyect.urlImage}
+              website={proyect.urlWebsite}
+              github={proyect.urlGithub}
               key={index} 
+              color={color}
+              category={proyect.category}
             />
           ))}
         </div>
