@@ -11,6 +11,12 @@ $breakpoint-xl: 1200px;
   section{
     padding-top: 50px;
   }
+
+  .loading_container{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
 }
 
 

@@ -54,7 +54,8 @@
   --color_white: #fff;
   --color_lowBlack: #1c1a24;
   --color_lowWhite: #dbd0d8;
-
+  --color_loading_white: #c4aeba;
+  --color_loading_black: #302f36;
   
 }
 
@@ -67,6 +68,7 @@
   --highlight: var(--color_highlight2);
   --highlight-reverse: var(--color_highlight);
   --background-color-low: var(--color_lowWhite);
+  --background-loading: var(--color_loading_white);
 }
 [data-theme="dark"] {
   --background-color: var(--color_dark);
@@ -76,6 +78,7 @@
   --highlight: var(--color_highlight);
   --highlight-reverse: var(--color_highlight2); 
   --background-color-low: var(--color_lowBlack);
+  --background-loading: var(--color_loading_black);
 }
 
 *{

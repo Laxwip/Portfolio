@@ -1,6 +1,7 @@
 import React from 'react'
 import './Proyect.scss'
 import Github from '../../../public/iconos/github'
+import IconWeb from '../../../public/iconos/iconWeb'
         
 export default function Proyect({ name, description, skills, img, website, github, color, category}) {
 return (
@@ -19,7 +20,7 @@ return (
             <span className='name'>Website</span>
           </a>
           <a className="button repository" target='_blank' href={github}>
-            <Github className="icon" color={color}></Github>
+            <IconWeb className="icon" color={color}></IconWeb>
             <span className='name'>Repository</span>
           </a>
         </div>

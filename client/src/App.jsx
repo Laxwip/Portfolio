@@ -48,7 +48,7 @@ function App() {
       <div className="app-container">
         <Navbar menuRef={menuRef} />
         <Homepage />
-        <Footer />
+        <Footer  color={color}/>
       </div>
     </>
   );

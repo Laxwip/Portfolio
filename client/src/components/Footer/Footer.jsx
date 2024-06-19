@@ -1,15 +1,26 @@
 import React from 'react'
 import './Footer.scss'
+import Linkedin from '../../../public/iconos/linkedin'
+import Github from '../../../public/iconos/github'
         
-export default function Footer() {
+export default function Footer({color}) {
 return (
   <footer className="Footer">
-    <p>&copy; 2024 - All Rights Reserved</p>
-    <p>Made with ❤️ by <a href="https:/https://www.linkedin.com/in/axl-william-pacheco-huané-b1193b24a/" target="_blank" rel="noreferrer noopener">Laxwip</a></p>
-    <p>Source code available on <a href="https://github.com/jonathan-codes/react-todo" target="_blank" rel="noreferrer noopener">GitHub</a></p>
-    <p>Powered by <a href="https://reactjs.org/" target="_blank" rel="noreferrer noopener">React</a></p>
-    <p>Hosted on <a href="https://www.netlify.com/" target="_blank" rel="noreferrer noopener">Netlify</a></p>
-    <p>Design inspired by <a href="https://dribbble.com/shots/4585382-Simple-Minimalist-Todo-List" target="_blank" rel="noreferrer noopener">this design</a></p>
+    <div className="text">
+      <p>&copy; 2024 - Todos los derechos reservados</p>
+
+      <p>Hecho con ❤️ por <a href="https://www.linkedin.com/in/axl-william-pacheco-huané-b1193b24a/" target="_blank">Laxwip</a></p>
+
+      <p>Código disponible en <a href="https://github.com/Laxwip/Portfolio" target="_blank">GitHub</a></p>
+    </div>
+    <div className="social">
+      <a href="https://www.linkedin.com/in/axl-william-pacheco-huané-b1193b24a/" target="_blank">
+        <Linkedin color={color} className="icon"></Linkedin>
+      </a>
+      <a href="https://github.com/Laxwip" target="_blank">
+        <Github color={color} className="icon"></Github>
+      </a>
+    </div>
   </footer>
 )
 }

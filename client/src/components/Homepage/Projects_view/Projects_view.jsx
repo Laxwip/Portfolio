@@ -26,77 +26,68 @@ export default function Projects_view({color}) {
   
   return (
     <section className='projects_view' id='proyectos'>
-      <h1 className='title'>PROYECTOS</h1>
       <div className='projects_skills'>
-          {/* <div className='button_left'>
-            <ButtonLeft className='svg' color={color}></ButtonLeft>
-          </div> */}
-          <div className='skills_container'>
-              <div className='skill'>
-                <IconJs className="skillIcon" color={color}></IconJs>
-                <div className='tooltip'>JavaScript</div>
-              </div>
-              <div className='skill'>
-                <IconReact className="skillIcon" color={color}></IconReact>
-                <div className='tooltip'>React</div>
-              </div>
-              <div className='skill'>
-                <IconVite className="skillIcon" color={color}></IconVite>
-                <div className='tooltip'>Vite</div>
-              </div>
-              <div className='skill'>
-                <IconRedux className="skillIcon" color={color}></IconRedux>
-                <div className='tooltip'>Redux</div>
-              </div>
-              <div className='skill'>
-                <IconHTML className="skillIcon" color={color}></IconHTML>
-                <div className='tooltip'>HTML</div>
-              </div>
-              <div className='skill'>
-                <IconCSS className="skillIcon" color={color}></IconCSS>
-                <div className='tooltip'>CSS</div>
-              </div>
-              <div className='skill'>
-                <IconSass className="skillIcon" color={color}></IconSass>
-                <div className='tooltip'>Sass</div>
-              </div>
-              <div className='skill'>
-                <IconFigma className="skillIcon" color={color}></IconFigma>
-                <div className='tooltip'>Figma</div>
-              </div>
-              <div className='skill'>
-                <IconPostreSql className="skillIcon" color={color}></IconPostreSql>
-                <div className='tooltip'>PostgreSQL</div>
-              </div>
-              <div className='skill'>
-                <IconNode className="skillIcon" color={color}></IconNode>
-                <div className='tooltip'>Node.js</div>
-              </div>
-              <div className='skill'>
-                <IconGit className="skillIcon" color={color}></IconGit>
-                <div className='tooltip'>Git</div>
-              </div>
-              <div className='skill'>
-                <IconExpress className="skillIcon" color={color}></IconExpress>
-                <div className='tooltip'>Express</div>
-              </div>
-              <div className='skill'>
-                <IconSequelize className="skillIcon" color={color}></IconSequelize>
-                <div className='tooltip'>Sequelize</div>
-              </div>
-              <div className='skill'>
-                <IconElectron className="skillIcon" color={color}></IconElectron>
-                <div className='tooltip'>Electron</div> 
-              </div>
-          </div>
-          {/* <div className='button_right'>
-            <ButtonRight className='svg' color={color}></ButtonRight>
-          </div> */}
+        <div className='skills_container'>
+            <div className='skill'>
+              <IconJs className="skillIcon" color={color}></IconJs>
+              <div className='tooltip'>JavaScript</div>
+            </div>
+            <div className='skill'>
+              <IconReact className="skillIcon" color={color}></IconReact>
+              <div className='tooltip'>React</div>
+            </div>
+            <div className='skill'>
+              <IconVite className="skillIcon" color={color}></IconVite>
+              <div className='tooltip'>Vite</div>
+            </div>
+            <div className='skill'>
+              <IconRedux className="skillIcon" color={color}></IconRedux>
+              <div className='tooltip'>Redux</div>
+            </div>
+            <div className='skill'>
+              <IconHTML className="skillIcon" color={color}></IconHTML>
+              <div className='tooltip'>HTML</div>
+            </div>
+            <div className='skill'>
+              <IconCSS className="skillIcon" color={color}></IconCSS>
+              <div className='tooltip'>CSS</div>
+            </div>
+            <div className='skill'>
+              <IconSass className="skillIcon" color={color}></IconSass>
+              <div className='tooltip'>Sass</div>
+            </div>
+            <div className='skill'>
+              <IconFigma className="skillIcon" color={color}></IconFigma>
+              <div className='tooltip'>Figma</div>
+            </div>
+            <div className='skill'>
+              <IconPostreSql className="skillIcon" color={color}></IconPostreSql>
+              <div className='tooltip'>PostgreSQL</div>
+            </div>
+            <div className='skill'>
+              <IconNode className="skillIcon" color={color}></IconNode>
+              <div className='tooltip'>Node.js</div>
+            </div>
+            <div className='skill'>
+              <IconGit className="skillIcon" color={color}></IconGit>
+              <div className='tooltip'>Git</div>
+            </div>
+            <div className='skill'>
+              <IconExpress className="skillIcon" color={color}></IconExpress>
+              <div className='tooltip'>Express</div>
+            </div>
+            <div className='skill'>
+              <IconSequelize className="skillIcon" color={color}></IconSequelize>
+              <div className='tooltip'>Sequelize</div>
+            </div>
+            <div className='skill'>
+              <IconElectron className="skillIcon" color={color}></IconElectron>
+              <div className='tooltip'>Electron</div> 
+            </div>
+        </div>
       </div>
+      <h1 className='title'>PROYECTOS</h1>
       <div className='projects_container'>
-        {/* <div className='timeline'>
-          <div className='line'></div>
-        </div> */}
         <div className='projects'>
           {dataProjects.map((proyect, index) => (
             <Proyect 

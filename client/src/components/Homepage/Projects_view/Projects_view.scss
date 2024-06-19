@@ -9,7 +9,7 @@ $breakpoint-xl: 1200px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  // margin-bottom: 10rem;
+  margin-bottom: 10rem;
 
   .title{
     font-size: clamp(1.5rem, 3vw, 3rem);
