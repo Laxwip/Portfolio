@@ -6,8 +6,8 @@ export const conditionSlice = createSlice({
     isOpenMenubar: false,
   },
   reducers: {
-    toggleMenubar: (state) => {
-      state.isOpenMenubar = !state.isOpenMenubar
+    toggleMenubar: (state, action) => {
+      state.isOpenMenubar = action.payload
     }
   }
 })

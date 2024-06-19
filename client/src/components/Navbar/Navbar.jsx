@@ -54,8 +54,8 @@ export default function Navbar({menuRef}) {
   };
 
   const toggleBar = () => {
-    dispatch(toggleMenubar(!isOpenMenubar));
-  }
+    dispatch(toggleMenubar(!isOpenMenubar)); // Solo permite abrir el menú si está cerrado
+  };
 
 return (
   <header className='Navbar'>
@@ -71,7 +71,7 @@ return (
       </div>
     </nav>
 
-    <div className='toggle-bar' onClick={toggleBar}>
+    <div className='toggle-bar' onClick={toggleBar} ref={menuRef}>
       <IconMenu color={color} className="svg"></IconMenu>
     </div>
 
