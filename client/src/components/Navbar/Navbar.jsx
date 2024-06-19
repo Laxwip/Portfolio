@@ -7,7 +7,7 @@ import { toggleMenubar } from '../../redux/features/condition/conditionSlice';
 import IconMenu from '../../../public/iconos/iconMenu';
 
         
-export default function Navbar() {
+export default function Navbar({menuRef}) {
   const dispatch = useDispatch();
   const theme = useSelector((state) => state.colors.theme);
   const isOpenMenubar = useSelector((state) => state.condition.isOpenMenubar);
@@ -22,8 +22,10 @@ export default function Navbar() {
       const scrollPos = window.scrollY || document.documentElement.scrollTop;
 
       sections.forEach(section => {
-        if (scrollPos >= section.offsetTop - section.offsetHeight * 0.25 &&
-            scrollPos < section.offsetTop + section.offsetHeight * 0.75) {
+        // if (scrollPos >= section.offsetTop - section.offsetHeight * 0.25 &&
+        //     scrollPos < section.offsetTop + section.offsetHeight * 0.75) {
+        //   setActiveLink(`#${section.id}`);
+        if (scrollPos >= section.offsetTop - section.offsetHeight * 0.1 && scrollPos <= section.offsetTop + section.offsetHeight * 1.25) {
           setActiveLink(`#${section.id}`);
         }
       });
@@ -57,8 +59,10 @@ export default function Navbar() {
 
 return (
   <header className='Navbar'>
+
     <LaxwipLogo color={color} className={"logo"} alt={"Icono de marca LAXWIP"} onClick={(e) => handleClick(e, 'inicio')}/>
-    <nav className={`link-list ${isOpenMenubar ? "visible": ""}`}>
+
+    <nav className={`link-list ${isOpenMenubar ? "visible": ""}`} ref={menuRef}>
       <a href="#inicio" className={activeLink === '#inicio' ? 'active' : ''} onClick={(e) => handleClick(e, 'inicio')}>INICIO</a>
       <a href="#proyectos" className={activeLink === '#proyectos' ? 'active' : ''} onClick={(e) => handleClick(e, 'proyectos')}>PROYECTOS</a>
       <a href="#contacto" className={activeLink === '#contacto' ? 'active' : ''} onClick={(e) => handleClick(e, 'contacto')}>CONTACTO</a>
@@ -66,9 +70,11 @@ return (
         <div className={`circle ${theme === "dark"? "left" : "right"}`}></div>
       </div>
     </nav>
+
     <div className='toggle-bar' onClick={toggleBar}>
       <IconMenu color={color} className="svg"></IconMenu>
     </div>
+
   </header>
 )
 }

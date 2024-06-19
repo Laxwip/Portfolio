@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useRef } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import './Homepage.scss';
 import Main_view from './Main_view/Main_view';
@@ -12,6 +12,8 @@ export default function Homepage() {
   const savedTheme = useSelector (state => state.colors.theme);
   const color = savedTheme === "light" ? "#cd1b53" : "#14D5FF"
   const colorBackground = savedTheme === "light" ? "#d7ddea" : "#111016"
+
+  
 
   useEffect(() => {
     dispatch(fetchProjects());
