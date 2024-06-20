@@ -5,6 +5,7 @@ import Main_view from './Main_view/Main_view';
 import Projects_view from './Projects_view/Projects_view';
 import { fetchProjects } from '../../redux/features/data/dataSlice';
 import LoadingProjectsView from './Loading_view/LoadingProjectsView';
+import Contact_view from './Contact_view/Contact_view';
 
 
 export default function Homepage() {
@@ -24,7 +25,6 @@ export default function Homepage() {
     <main className='Homepage'>
       <Main_view color={color} colorBackground={colorBackground}/>
       <Projects_view color={color}/>
-      {/* <Contact_view color={color}/> */}
       {
         isLoading && (
           <div className='loading_container'>
@@ -35,6 +35,8 @@ export default function Homepage() {
           </div>
         )
       }
+      <Contact_view color={color}/>
+      
     </main>
   );
 }
