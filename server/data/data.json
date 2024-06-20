@@ -1,84 +1,34 @@
 {
   "projects": [
     {
-      "category": "Frontend",
+      "category": "FULLSTACK DEVELOPER",
       "name": "DELIVELOZ",
       "description": "Aplicación de comercio electrónico para entrega rápida de alimentos, con interfaz atractiva y fácil de usar. Permite explorar productos, agregar al carrito, modificar el perfil y realizar compras seguras, con confirmaciones por correo y panel de control para administradores.",
-      "date": "2023/01/01 - Actualidad",
-      "tags": ["HTML", "CSS", "JavaScript","HTML", "CSS", "JavaScript","HTML", "CSS", "JavaScript","HTML", "CSS", "JavaScript","HTML", "CSS", "JavaScript","HTML", "CSS", "JavaScript","HTML", "CSS", "JavaScript"],
-      "urlWebsite": "https://github.com/john-doe/school",
-      "urlGithub": "https://github.com/john-doe/school",
+      "date": "Mar. 2024 - Abr. 2024",
+      "tags": ["HTML", "CSS", "JavaScript", "React", "Node.js", "Express", "Redux", "PostgreSql", "Sequelize", "JWT"],
+      "urlWebsite": "https://deliveloz.netlify.app",
+      "urlGithub": "https://github.com/Delivelozz/DeliVeloz",
       "urlImage": "https://res.cloudinary.com/dpk2wmbsb/image/upload/v1718551969/Portfolio/63f4e9fb-a5c5-486f-93f0-d76a2539fd99.png"      
     },
     {
-      "category": "Frontend",
+      "category": "FULLSTACK DEVELOPER",
       "name": "LAXWIP_DOG",
-      "description": "Aplicación web para la gestión de mascotas, con interfaz atractiva y fácil de usar. Permite explorar productos, agregar al carrito, modificar el perfil y realizar compras seguras, con confirmaciones por correo",
-      "date": "2023/01/01 - Actualidad",
-      "tags": ["HTML", "CSS", "JavaScript","HTML", "CSS", "JavaScript","HTML", "CSS", "JavaScript","HTML", "CSS", "JavaScript","HTML", "CSS", "JavaScript","HTML", "CSS", "JavaScript","HTML", "CSS", "JavaScript"],
-      "urlWebsite": "https://github.com/john-doe/school",
-      "urlGithub": "https://github.com/john-doe/school",
-      "urlImage": "https://res.cloudinary.com/dpk2wmbsb/image/upload/v1718551969/Portfolio/63f4e9fb-a5c5-486f-93f0-d76a2539fd99.png"
+      "description": "Aplicación web para la vizualisacion de perros, con interfaz atractiva y fácil de usar. Permite explorar perros, agregar a favoritos y añadir alguna raza a la base de datos.",
+      "date": "Feb. 2024",
+      "tags": ["HTML", "CSS", "JavaScript", "React", "Node.js", "Express", "Redux", "PostgreSql", "Sequelize"],
+      "urlWebsite": "https://laxwipdogs.netlify.app",
+      "urlGithub": "https://github.com/Laxwip/Pi-Dogs-in-progress",
+      "urlImage": "https://res.cloudinary.com/dpk2wmbsb/image/upload/v1714011985/imgPiDogs/003_axx5md.png"
     },
     {
-      "category": "Frontend",
+      "category": "FULLSTACK DEVELOPER",
       "name": "POSTULAXWIP",
-      "description": "Aplicación web para la gestión de mascotas, con interfaz atractiva y fácil de usar. Permite explorar productos, agregar al carrito, modificar el perfil y realizar compras seguras, con confirmaciones por correo",
-      "date": "2023/01/01 - Actualidad",
-      "tags": ["HTML", "CSS", "JavaScript"],
-      "urlWebsite": "https://github.com/john-doe/school",
-      "urlGithub": "https://github.com/john-doe/school",
-      "urlImage": "https://res.cloudinary.com/dpk2wmbsb/image/upload/v1718551969/Portfolio/63f4e9fb-a5c5-486f-93f0-d76a2539fd99.png"
-    },
-    {
-      "category": "Frontend",
-      "name": "POSTULAXWIP",
-      "description": "Aplicación web para la gestión de mascotas, con interfaz atractiva y fácil de usar. Permite explorar productos, agregar al carrito, modificar el perfil y realizar compras seguras, con confirmaciones por correo",
-      "date": "2023/01/01 - Actualidad",
-      "tags": ["HTML", "CSS", "JavaScript"],
-      "urlWebsite": "https://github.com/john-doe/school",
-      "urlGithub": "https://github.com/john-doe/school",
-      "urlImage": "https://res.cloudinary.com/dpk2wmbsb/image/upload/v1718551969/Portfolio/63f4e9fb-a5c5-486f-93f0-d76a2539fd99.png"
-    },
-    {
-      "category": "Frontend",
-      "name": "POSTULAXWIP",
-      "description": "Aplicación web para la gestión de mascotas, con interfaz atractiva y fácil de usar. Permite explorar productos, agregar al carrito, modificar el perfil y realizar compras seguras, con confirmaciones por correo",
-      "date": "2023/01/01 - Actualidad",
-      "tags": ["HTML", "CSS", "JavaScript"],
-      "urlWebsite": "https://github.com/john-doe/school",
-      "urlGithub": "https://github.com/john-doe/school",
-      "urlImage": "https://res.cloudinary.com/dpk2wmbsb/image/upload/v1718551969/Portfolio/63f4e9fb-a5c5-486f-93f0-d76a2539fd99.png"
-    },
-    {
-      "category": "Frontend",
-      "name": "POSTULAXWIP",
-      "description": "Aplicación web para la gestión de mascotas, con interfaz atractiva y fácil de usar. Permite explorar productos, agregar al carrito, modificar el perfil y realizar compras seguras, con confirmaciones por correo",
-      "date": "2023/01/01 - Actualidad",
-      "tags": ["HTML", "CSS", "JavaScript"],
-      "urlWebsite": "https://github.com/john-doe/school",
-      "urlGithub": "https://github.com/john-doe/school",
-      "urlImage": "https://res.cloudinary.com/dpk2wmbsb/image/upload/v1718551969/Portfolio/63f4e9fb-a5c5-486f-93f0-d76a2539fd99.png"
-    },
-    {
-      "category": "Frontend",
-      "name": "POSTULAXWIP",
-      "description": "Aplicación web para la gestión de mascotas, con interfaz atractiva y fácil de usar. Permite explorar productos, agregar al carrito, modificar el perfil y realizar compras seguras, con confirmaciones por correo",
-      "date": "2023/01/01 - Actualidad",
-      "tags": ["HTML", "CSS", "JavaScript"],
-      "urlWebsite": "https://github.com/john-doe/school",
-      "urlGithub": "https://github.com/john-doe/school",
-      "urlImage": "https://res.cloudinary.com/dpk2wmbsb/image/upload/v1718551969/Portfolio/63f4e9fb-a5c5-486f-93f0-d76a2539fd99.png"
-    },
-    {
-      "category": "Frontend",
-      "name": "POSTULAXWIP",
-      "description": "Aplicación web para la gestión de mascotas, con interfaz atractiva y fácil de usar. Permite explorar productos, agregar al carrito, modificar el perfil y realizar compras seguras, con confirmaciones por correo",
-      "date": "2023/01/01 - Actualidad",
-      "tags": ["HTML", "CSS", "JavaScript"],
-      "urlWebsite": "https://github.com/john-doe/school",
-      "urlGithub": "https://github.com/john-doe/school",
-      "urlImage": "https://res.cloudinary.com/dpk2wmbsb/image/upload/v1718551969/Portfolio/63f4e9fb-a5c5-486f-93f0-d76a2539fd99.png"
+      "description": "Aplicación de escritorio que me permite crear y administrar postulaciones de empleo, con interfaz atractiva y fácil de usar. Permite crear postulaciones, editarlas y eliminar las que ya no sean necesarias.",
+      "date": "May. 2024",
+      "tags": ["HTML", "CSS", "JavaScript", "React", "Node.js", "Express", "Redux", "Electron"],
+      "urlWebsite": "https://drive.google.com/file/d/1sDdOq7E0hqDfW5m5zcm9ldbkDpEyLBeX/view?usp=sharing",
+      "urlGithub": "https://github.com/Laxwip/Postulaciones",
+      "urlImage": "https://res.cloudinary.com/dpk2wmbsb/image/upload/v1718906920/Postulaxwip/f3e50527-37e9-4369-bbf2-099ba793d61b.png"
     }
   ],
 
@@ -86,13 +36,7 @@
 
   "education": [],
 
-  "skills": [
-    {
-      "name": "HTML",
-      "level": 90,
-      "icon": "https://via.placeholder.com/150"
-    }
-  ],
+  "skills": [],
 
   "interests": [],
 

@@ -1,9 +1,8 @@
-import React, { useEffect, useRef } from 'react';
+import React, { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import './Homepage.scss';
 import Main_view from './Main_view/Main_view';
 import Projects_view from './Projects_view/Projects_view';
-import Contact_view from './Contact_view/Contact_view';
 import { fetchProjects } from '../../redux/features/data/dataSlice';
 import LoadingProjectsView from './Loading_view/LoadingProjectsView';
 
