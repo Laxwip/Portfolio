@@ -5,6 +5,7 @@ import Linkedin from '../../../../public/iconos/linkedin';
 import { useSelector, useDispatch } from 'react-redux';
 import pdfUrl from '../../../../public/pdf/Axl_Pacheco.pdf';
 import IconMarco from '../../../../public/iconos/iconMarco';
+import IconDown from '../../../../public/iconos/iconDown';
 
         
 export default function Main_view({color, colorBackground}) {
@@ -29,16 +30,13 @@ export default function Main_view({color, colorBackground}) {
           </div>
         </div>
       </div>
-      {/* <div className='section_grid'>
-        <div className="grid-container">
-          {[...Array(200)].map((_, index) => (
-              <div key={index} className="grid-item"></div>
-          ))}
-        </div>
-      </div> */}
       <div className='section_logo'>
         <IconMarco color={color} colorBackground={colorBackground} className="marco" className2="sombra"></IconMarco>
         <div className='shadow'></div>
+      </div>
+      <div className='scroll'>
+        <IconDown className="down" color={color}></IconDown>
+        <IconDown className="down" color={color}></IconDown>
       </div>
     </section>
   )
