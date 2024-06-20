@@ -16,11 +16,11 @@ return (
         </div>
         <div className='buttons'>
           <a className="button website" target='_blank' href={website}>
-            <Github className="icon" color={color}></Github>
+            <IconWeb className="icon" color={color}></IconWeb>
             <span className='name'>Website</span>
           </a>
           <a className="button repository" target='_blank' href={github}>
-            <IconWeb className="icon" color={color}></IconWeb>
+            <Github className="icon" color={color}></Github>
             <span className='name'>Repository</span>
           </a>
         </div>
