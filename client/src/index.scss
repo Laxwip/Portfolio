@@ -56,6 +56,8 @@
   --color_lowWhite: #dbd0d8;
   --color_loading_white: #c4aeba;
   --color_loading_black: #302f36;
+  --color_error_white: #b26506;
+  --color_error_black: #dca12c;
   
 }
 
@@ -69,6 +71,7 @@
   --highlight-reverse: var(--color_highlight);
   --background-color-low: var(--color_lowWhite);
   --background-loading: var(--color_loading_white);
+  --error: var(--color_error_white);
 }
 [data-theme="dark"] {
   --background-color: var(--color_dark);
@@ -79,6 +82,7 @@
   --highlight-reverse: var(--color_highlight2); 
   --background-color-low: var(--color_lowBlack);
   --background-loading: var(--color_loading_black);
+  --error: var(--color_error_black);
 }
 
 *{

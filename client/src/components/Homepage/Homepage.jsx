@@ -24,7 +24,7 @@ export default function Homepage() {
   return (
     <main className='Homepage'>
       <Main_view color={color} colorBackground={colorBackground}/>
-      <Projects_view color={color}/>
+      <Projects_view color={color}>
       {
         isLoading && (
           <div className='loading_container'>
@@ -35,6 +35,7 @@ export default function Homepage() {
           </div>
         )
       }
+      </Projects_view>
       <Contact_view color={color}/>
       
     </main>

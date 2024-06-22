@@ -1,20 +1,30 @@
 import React, { useState } from 'react';
 import './Contact_view.scss'
 import emailjs from 'emailjs-com';
+import { validate } from './validation';
         
 export default function Contact_view({color}) {
-  const [formData, setFormData] = useState({
+
+  const initialState = {
     from_name: '',
     email: '',
     message: ''
-  });
+}
+  const [formData, setFormData] = useState(initialState);
+  const [errors, setErrors] = useState(initialState);
+  
 
   const handleChange = (e) => {
       const { name, value } = e.target;
-      setFormData({
-          ...formData,
-          [name]: value
-      });
+      const updatedData = {
+        ...formData,
+        [name]: value
+      };
+    
+      setFormData(updatedData);
+    
+      const validationErrors = validate(updatedData);
+      setErrors(validationErrors);
   };
 
   const handleSubmit = (e) => {
@@ -36,23 +46,42 @@ export default function Contact_view({color}) {
           email: '',
           message: ''
       });
+
+      setErrors(validate(formData))
   };
 
   return (
-      <form onSubmit={handleSubmit}>
-          <div>
-              <label>Name</label>
+      <section className='contact_view' id='contacto'>
+        <h1 className='title' >CONTACTAME</h1>
+        <form onSubmit={handleSubmit} className='formulary' >
+          <div className='label'>
+              <label>NOMBRE<span className='resalt'>*</span></label>
               <input type="text" name="from_name" value={formData.from_name} onChange={handleChange} required />
+              <span className='error'>{errors.from_name}</span>
           </div>
-          <div>
-              <label>Email</label>
+          <div className='label'>
+              <label>CORREO<span className='resalt'>*</span></label>
               <input type="email" name="email" value={formData.email} onChange={handleChange} required />
+              <span className='error'>{errors.email}</span>
           </div>
-          <div>
-              <label>Message</label>
-              <textarea name="message" value={formData.message} onChange={handleChange} required />
+          <div className='label'>
+              <label>MENSAJE<span className='resalt'>*</span></label>
+              <textarea name="message" value={formData.message} onChange={handleChange} required cols="20" />
+              <span className='error'>{errors.message}</span>
           </div>
-          <button type="submit">Send</button>
+          <button 
+          type="submit"
+          className='send_button'
+          disabled={
+            errors.from_name ||
+            errors.email ||
+            errors.message ||
+            formData.from_name === '' ||
+            formData.email === '' ||
+            formData.message === ''
+            ? true : false}
+          >ENVIAR</button>
       </form>
+      </section>
   );
 }
