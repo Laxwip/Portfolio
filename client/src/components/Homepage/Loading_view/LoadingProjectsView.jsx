@@ -10,6 +10,15 @@ export default function LoadingProjectsView() {
         <div className="loading_description"></div>
         <div className="loading_tags">
           <div className="loading_tag"></div>
+          <div className="loading_tag"></div>
+          <div className="loading_tag"></div>
+          <div className="loading_tag"></div>
+          <div className="loading_tag"></div>
+          <div className="loading_tag"></div>
+          <div className="loading_tag"></div>
+          <div className="loading_tag"></div>
+          <div className="loading_tag"></div>
+          <div className="loading_tag"></div>
         </div>
         <div className="loading_buttons">
           <div className="loading_button"></div>

@@ -56,17 +56,17 @@ export default function Contact_view({color}) {
         <form onSubmit={handleSubmit} className='formulary' >
           <div className='label'>
               <label>NOMBRE<span className='resalt'>*</span></label>
-              <input type="text" name="from_name" value={formData.from_name} onChange={handleChange} required />
+              <input type="text" name="from_name" value={formData.from_name} onChange={handleChange} placeholder='Ingrese su nombre aquí'/>
               <span className='error'>{errors.from_name}</span>
           </div>
           <div className='label'>
               <label>CORREO<span className='resalt'>*</span></label>
-              <input type="email" name="email" value={formData.email} onChange={handleChange} required />
+              <input type="email" name="email" value={formData.email} onChange={handleChange} placeholder='Ingrese su correo aquí'/>
               <span className='error'>{errors.email}</span>
           </div>
           <div className='label'>
               <label>MENSAJE<span className='resalt'>*</span></label>
-              <textarea name="message" value={formData.message} onChange={handleChange} required cols="20" />
+              <textarea name="message" value={formData.message} onChange={handleChange} cols="20" placeholder='Dejame un mensaje'/>
               <span className='error'>{errors.message}</span>
           </div>
           <button 
